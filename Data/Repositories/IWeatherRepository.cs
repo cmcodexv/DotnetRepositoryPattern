@@ -6,6 +6,7 @@ namespace DotnetRepositoryPattern.Data.Repositories
 {
     public interface IWeatherRepository : IRepository<Weather>
     {
-        IEnumerable<Weather> GetWeatherAsync();
+        Task<List<Weather>> GetWeatherAsync();
+
     }
 }

@@ -6,6 +6,6 @@ namespace DotnetRepositoryPattern.Service.Services
 {
     public interface IWeatherService
     {
-        IEnumerable<Weather> GetWeatherAsync();
+       Task<List<Weather>> GetWeatherAsync();
     }
 }

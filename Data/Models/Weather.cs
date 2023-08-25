@@ -2,7 +2,8 @@ namespace DotnetRepositoryPattern.Data.Models;
 
 public class Weather
 {
-    public DateOnly Date { get; set; }
+    public long WeatherId { get; set; }
+    public DateTime Date { get; set; }
 
     public int TemperatureC { get; set; }
 

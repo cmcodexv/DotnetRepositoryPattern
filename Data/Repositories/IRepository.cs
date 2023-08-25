@@ -1,7 +1,7 @@
 ﻿namespace DotnetRepositoryPattern.Data.Repositories
 {
-    public interface IRepository<Weather> where Weather : class, new()
+    public interface IRepository<TEntity> where TEntity : class, new()
     {
-        IEnumerable<Weather> GetAll();
+       IQueryable<TEntity> GetAll();
     }
 }
