@@ -1,5 +1,5 @@
 # EJEMPLO DE DOTNET USANDO REPOSITORY PATTERN Y DOCKER
-Ejemplo de Repository Patter usando .Net
+Ejemplo de Repository Pattern usando .Net
 
 ## Dependencias
 - [Docker](https://www.docker.com/)
